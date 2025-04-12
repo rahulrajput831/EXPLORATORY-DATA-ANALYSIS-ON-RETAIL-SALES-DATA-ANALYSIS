@@ -1,105 +1,61 @@
 # EXPLORATORY-DATA-ANALYSIS-ON-RETAIL-SALES-DATA-ANALYSIS
-Awesome! Since your GitHub project is related to analyzing employee salaries using Excel (with dashboards, slicers, and visualizations), here's a well-formatted and beginner-friendly `README.md` you can use for your repository:
+# 📊 Allegh# Retail Sales Data Analysis: Trends, Visualization, and Predictive Modeling
+
+**Project Report for INT375 - Data Science Toolbox (Python Programming)**  
+**Lovely Professional University**  
+**Author: Rahul Pathania | Registration No.: 12312227**
 
 ---
 
-## 📊 Allegheny County Employee Salaries 2022 — Excel Dashboard Project
+## 📌 Overview
+This project analyzes retail sales data to uncover trends, perform statistical tests, and build a predictive model. Key objectives include:
+- Data cleaning and exploratory analysis.
+- Sales trend identification (category, gender, monthly trends).
+- Hypothesis testing and correlation analysis.
+- Predictive modeling using Linear Regression (R² = 0.85).
 
-Welcome to the **Allegheny County Employee Salaries Dashboard Project**! This project is designed to analyze and visualize salary data using **Microsoft Excel** through interactive dashboards, charts, and slicers. It's perfect for HR analysts, data enthusiasts, or anyone curious about public sector salaries.
+## 📂 Dataset
+**Source:** [Retail Sales Dataset (Kaggle)](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset/data)  
+Includes variables like product categories, customer demographics, sales quantity, and total amount.
 
----
+## 🔍 Key Analyses & Results
+1. **Sales Trends**  
+   - Top-selling category: Electronics (35% of total sales).  
+   - Peak sales in December (holiday season).  
+   - Male customers contributed 60% of sales.  
 
-### 📁 Project Overview
+2. **Data Visualization**  
+   - Histograms, KDE plots, and correlation heatmaps (e.g., Quantity vs. Total Amount: r = 0.82).  
 
-This project involves:
-- Cleaning and organizing salary data
-- Creating **pivot tables** for summaries
-- Designing **interactive dashboards**
-- Using **slicers** for dynamic filtering
-- Applying professional **visual styles and themes**
+3. **Statistical Analysis**  
+   - Significant gender-based sales difference (p-value = 0.003).  
+   - High correlation between Price and Total Amount (0.89).  
 
----
+4. **Machine Learning Model**  
+   - Linear Regression achieved MAE = 173.12 and R² = 0.8569.  
 
-### 🧩 Features
+## 🛠️ Tools & Libraries
+- **Python Libraries:** Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn.  
+- **Methods:** T-tests, correlation analysis, feature engineering, and predictive modeling.  
 
-✅ **Pivot Tables**: Department-wise and job title-wise salary analysis  
-✅ **Top 10 Highest-Paid Jobs**: Bar chart with formatting  
-✅ **Gender Pay Gap Analysis**  
-✅ **Monthly Employee Movement**: Joinings vs Terminations  
-✅ **Slicers** to filter data by:
-- Department
-- Gender
-- Month
-- Job Title
+## 📄 Repository Structure
+├── ProjectReport.doc # Full project report (30-80 pages)
+├── figures/ # Visualizations (charts, heatmaps)
+├── README.md # Overview of the project
+└── references/ # IEEE-format references (included in report)
 
-✅ **Custom Styling**:
-- Dark theme dashboard
-- Custom slicer styles
-- Formatted number labels (K / L / M formats)
+## 📊 How to Navigate
+1. Download `ProjectReport.doc` for the complete analysis.  
+2. View the `figures/` folder for visualizations (bar charts, line graphs, heatmaps).  
 
----
+## 🔮 Future Scope
+- Real-time data integration.  
+- Advanced models (Random Forest, XGBoost).  
+- Customer segmentation using clustering.  
 
-### 🖼️ Dashboard Snapshots
+## 📧 Contact
+**Rahul Pathania**  
+Discipline of CSE/IT, Lovely Professional University, Phagwara, Punjab  
+**Email:** [rahulrajput831831831@gmail.com]  
 
-| Description | Preview |
-|------------|---------|
-| Employee Movement | 📈 Joinings vs Terminations |
-| Gender Pay Gap | 📊 Male vs Female Average Salaries |
-| Department-Wise Payroll | 💼 Total salary expenditure by department |
-| Top 10 Jobs | 💸 Highest-paid job roles in 2022 |
 
----
-
-### ⚙️ How to Use
-
-1. **Download or Clone this Repository**
-2. Open `FINALPROJECT.xlsx` in Excel
-3. Explore different **sheets and slicers**
-4. Filter based on departments, gender, months, etc.
-5. Interact with visual elements to explore trends
-
-> 💡 Tip: Enable Macros and Slicer Interactions for full functionality
-
----
-
-### 🛠️ Tools Used
-
-- Microsoft Excel (2021+)
-- Pivot Tables & Pivot Charts
-- Slicers & Custom Formatting
-- Conditional Formatting
-- Data Labels (formatted in `K`, `L`, and `M`)
-- Excel Formulas (SUMIFS, etc.)
-
----
-
-### 🌟 Project Goals
-
-This project is part of a **data visualization learning journey** and aims to:
-- Build professional Excel dashboards
-- Interpret real-world salary data
-- Present findings in a clean, interactive way
-
----
-
-### 📂 Files
-
-| File Name            | Description |
-|----------------------|-------------|
-| `FINALPROJECT.xlsx`  | Main Excel file with dashboard |
-| `README.md`          | Project documentation |
-| `FINALPROJECT.ipynb` | Jupyter Notebook (optional extension/summary) |
-
----
-
-### 🤝 Let's Connect
-
-Feel free to **fork** this repo, give it a ⭐ if you liked it, and connect if you’d like to collaborate or provide feedback!
-
----
-
-Would you like me to:
-- Include a sample dashboard screenshot in the README using Markdown syntax?
-- Add badges (e.g., Excel | Visualization | Beginner Friendly)?
-
-Let me know — happy to help customize it further!
